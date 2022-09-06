@@ -5,7 +5,7 @@ const Ticket = mongoose.Schema({
 	TurnID:String,
     Bets:Array,
     Statut:String,
-	date:Date,
+    date: String,
     payment:Number,
     IdentifiantStore:String
 });

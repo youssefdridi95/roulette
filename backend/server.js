@@ -370,7 +370,7 @@ app.post('/saveTicket', (req,res) => {
                 TurnID,
                 Bets:betsArray,
                 Statut,
-                date:new Date(date),
+                date:date,
                 payment,
                 IdentifiantStore
             });
